@@ -4,19 +4,6 @@ CS 302.1001
 10/23/19
 
 
-I utilized c++14 in order to allow auto return types, because c++11 was giving me errors.
-
-
-I first traverse the tree Inorder, then in Preorder, and finally in Postorder. 
-
-Then the height of the tree is displayed by using the getHeight method.
-
-
-
-
-
-
-
 Ls-MacBook-Air:Project3 lousterd$ make
 g++  -Wall -std=c++14  -c proj3.cpp -o proj3.o
 g++  -Wall -std=c++14  BinaryNode.o BinaryNodeTree.o BinarySearchTree.o proj3.o   -lm   -o proj3
